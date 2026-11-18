@@ -1,4 +1,4 @@
-require(["esri/views/MapView", "esri/WebMap"], (esriConfig, MapView, WebMap) => {
+require(["esri/config","esri/views/MapView", "esri/WebMap"], (esriConfig, MapView, WebMap) => {
   esriConfig.portalUrl = "https://umn.maps.arcgis.com";
   const webmap = new WebMap({
     portalItem: {
