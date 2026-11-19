@@ -1,14 +1,25 @@
 html,
 body,
-#viewDiv {
-  padding: 0;
+.body {
+  display: flex;
   margin: 0;
-  height: 100%;
-  width: 100%;
+  justify-content: center; /* Centers horizontally */
+  align-items: flex-end; /* Pushes to the bottom */
+  min-height: 100vh; /* Or any specific height */
+  background-color: rgb(207, 207, 207);
+}
+#header {
+  position: absolute;
+  top: 0;
+  left: 30;
+  color: White;
+  text-shadow: 0 0 10px Black;
 }
 
-#buttonContainer {
+#viewDiv {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  padding: 0;
+  margin: 0;
+  height: 90%;
+  width: 95%;
 }
